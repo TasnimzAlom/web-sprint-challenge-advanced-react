@@ -1,13 +1,20 @@
 body {
   background: #0e101c;
+  background-image: url("https://i.ibb.co/DD3NghF/pngwing-com-12.png");
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
 
+
 .container {
-  max-width: 800px;
+ 
+  max-width: 900px;
   margin: 0 auto;
+  margin-top:7rem;
   border-bottom: 1px solid #cf0;
   display: flex;
   justify-content: space-between;
@@ -40,7 +47,7 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow:  wrap;
   justify-content: space-evenly;
 }
 
